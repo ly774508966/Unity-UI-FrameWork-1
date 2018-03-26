@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseView : MonoBehaviour{
-    // view life cycle
+public class BaseView : MonoBehaviour {
+
     public virtual void OnViewEnter()
     {
     }
@@ -16,4 +16,5 @@ public class BaseView : MonoBehaviour{
     public virtual void OnViewExit()
     {
     }
+ 
 }

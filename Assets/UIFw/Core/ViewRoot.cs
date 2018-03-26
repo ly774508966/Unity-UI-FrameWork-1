@@ -6,7 +6,7 @@ public class ViewRoot : MonoBehaviour {
 
     private void Awake()
     {
-        ViewManager.Instance.PushView(ViewType.ViewTypes.MainView);
+        BaseViewManager.Instance.PushView(ViewType.ViewTypes.MainView);
     }
 
 }
